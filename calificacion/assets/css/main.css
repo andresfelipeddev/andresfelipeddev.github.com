@@ -55,7 +55,7 @@ color: ;*/
   /* position: relative; quiere decir que es un elemento posicionado y que no se mueva */
   position: relative;
   /*propiedad de como se comporta el contenido que sale de las dimensiones del elemento las dimensiones son max-width max-height */
-  overflow: scroll;
+  overflow: hidden;
 }
 .content {
   padding: 1em;
@@ -135,8 +135,54 @@ coincide con uno o más elementos en función de su posición entre un grupo de 
   float: left;
   margin-right: 1em;
   height: 250px;
+  border-radius:5px ;
 }
 
+.imagenitanos{
+
+  float: right;
+  margin-right: 1em;
+  height: 250px;
+  border-radius:5px ;
+
+}
+.imagenjuguete{
+  float: right;
+  margin-right: 1em;
+  height: 200px;
+  border-radius:5px ;
+
+}
+
+.imagentakuma{
+  float: left;
+  margin-right: 1em;
+  height: 290px;
+  border-radius:5px ;
+}
+
+.imagenarabe{
+  float: right;
+  margin-right: 1em;
+  height: 290px;
+  border-radius:5px 
+
+}
+
+.imagenpizza{
+  float: left;
+  margin-right: 1em;
+  height: 180px;
+  border-radius:5px 
+}
+
+.imagencastaña{
+  float: left;
+  margin-right: 1em;
+  height: 250px;
+  border-radius:5px 
+
+}
 /*tamaño de la bloque azul en el 1*/
 .direccion {
   font-weight: bold;

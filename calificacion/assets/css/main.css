@@ -48,7 +48,7 @@ color: ;*/
   /*max-height: 500px;*/
   width: 100%;
   height: 80 vh;
-  background: white;
+  background: whitesmoke;
   /* box-shadow: difernecias de sombras  diferencia horizontal  diferencia vertical desenfoque amplitud color;*/
   box-shadow: 0 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 4px;
@@ -56,7 +56,24 @@ color: ;*/
   position: relative;
   /*propiedad de como se comporta el contenido que sale de las dimensiones del elemento las dimensiones son max-width max-height */
   overflow: hidden;
+  /* maximo de ancho*/
+  max-width: 1000px;
+  /*centrado del content ya se hizo anterior mente pero es opcional*/
+  margin: auto;
+
+  
+
+  /*flex*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 2;
+  min-height: 350px;
+  
 }
+
+
+
 .content {
   padding: 1em;
 }
@@ -135,53 +152,48 @@ coincide con uno o más elementos en función de su posición entre un grupo de 
   float: left;
   margin-right: 1em;
   height: 250px;
-  border-radius:5px ;
+  border-radius: 5px;
 }
 
-.imagenitanos{
-
+.imagenitanos {
   float: right;
   margin-right: 1em;
   height: 250px;
-  border-radius:5px ;
-
+  border-radius: 5px;
 }
-.imagenjuguete{
+.imagenjuguete {
   float: right;
   margin-right: 1em;
   height: 200px;
-  border-radius:5px ;
-
+  border-radius: 5px;
 }
 
-.imagentakuma{
+.imagentakuma {
   float: left;
   margin-right: 1em;
   height: 290px;
-  border-radius:5px ;
+  border-radius: 5px;
 }
 
-.imagenarabe{
+.imagenarabe {
   float: right;
   margin-right: 1em;
   height: 290px;
-  border-radius:5px 
-
+  border-radius: 5px;
 }
 
-.imagenpizza{
+.imagenpizza {
   float: left;
   margin-right: 1em;
   height: 180px;
-  border-radius:5px 
+  border-radius: 5px;
 }
 
-.imagencastaña{
+.imagencastaña {
   float: left;
   margin-right: 1em;
   height: 250px;
-  border-radius:5px 
-
+  border-radius: 5px;
 }
 /*tamaño de la bloque azul en el 1*/
 .direccion {

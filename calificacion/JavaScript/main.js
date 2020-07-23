@@ -30,7 +30,7 @@ cerrar.forEach(function (cerrar) {
     //setTimeout / setInterval    Es pera decidir cual empieza primero
 
     setTimeout(function () {
-      location.href = "/calificacion";
+      location.href = "/index.html";
     }, 600);
 
     return false;

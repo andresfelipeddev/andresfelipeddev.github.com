@@ -1,0 +1,22 @@
+{
+  "name": "andresfelipeddev.github.com",
+  "version": "1.0.0",
+  "scripts": {
+    "start:calificacion": "serve -l 4545 calificacion",
+    "start:cv": "serve -l 4546 cv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresfelipeddev/andresfelipeddev.github.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresfelipeddev/andresfelipeddev.github.com/issues"
+  },
+  "homepage": "https://github.com/andresfelipeddev/andresfelipeddev.github.com#readme",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}

@@ -10,118 +10,138 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" rel="stylesheet" />
 
     <link href="./vendor/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="./css/global.css" rel="stylesheet" />
     <link href="./css/main.css" rel="stylesheet" />
   </head>
   <body>
     <div class="container">
-      <div class="content animate__animated animate__fadeInDown">
-        <header>
-          <h1 class="title">Los mejores Restaurantes de mi Ciudad.</h1>
-        </header>
-        <table class="table">
-          <thead>
-            <th>#</th>
-            <th>Nombre</th>
-            <th>Ubicación</th>
-            <th>Calificación</th>
-            <th>Acciones</th>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Maria Jose Parrilla</td>
-              <td>Madrid</td>
-              <td>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </td>
-              <td><a href="./restaurantes/mariajose.html">Ver más</a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Itanos</td>
-              <td>Chapinero</td>
-              <td>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </td>
-              <td>
-                <a href="./restaurantes/itanos.html">Ver más</a>
-              </td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>La jugueteria</td>
-              <td>Kennedy</td>
-              <td>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </td>
-              <td><a href="./restaurantes/jugueteria.html">Ver más</a></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Takuma Cocina Show</td>
-              <td>Chapinero</td>
-              <td>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-              </td>
-              <td><a href="./restaurantes/takuma.html">Ver más</a></td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>M Cocina Árabe</td>
-              <td>Chapinero</td>
-              <td>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-                <i class="far fa-star"></i>
-              </td>
-              <td><a href="./restaurantes/arabe.html">Ver más</a></td>
-            </tr>
-            <tr>
-              <td>6</td>
-              <td>La castaña</td>
-              <td>Galerias</td>
-              <td>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </td>
-              <td><a href="./restaurantes/castaña.html">Ver más</a></td>
-            </tr>
-            <tr>
-              <td>7</td>
-              <td>Circo Stone Oven Pizza</td>
-              <td>Chapinero</td>
-              <td>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-              </td>
-              <td><a href="./restaurantes/circo.html">Ver más</a></td>
-            </tr>
-          </tbody>
-        </table>
+      <div class="animate__animated animate__fadeInDown container__content">
+        <div class="main">
+          <header>
+            <h1 class="main__title">Los mejores Restaurantes de mi Ciudad.</h1>
+          </header>
+
+          <div class="main__table-container">
+            <table class="main__table">
+              <thead class="main__header">
+                <tr>
+                  <th class="main__column-header">#</th>
+                  <th class="main__column-header">Nombre</th>
+                  <th class="main__column-header">Ubicación</th>
+                  <th class="main__column-header">Calificación</th>
+                  <th class="main__column-header">Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="main__row">
+                  <td class="main__column-content main__column-content--active">1</td>
+                  <td class="main__column-content">Maria Jose Parrilla</td>
+                  <td class="main__column-content">Madrid</td>
+                  <td class="main__column-content">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td class="main__column-content">
+                    <a href="./restaurantes/mariajose.html">Ver más</a>
+                  </td>
+                </tr>
+                <tr class="main__row">
+                  <td class="main__column-content main__column-content--active">2</td>
+                  <td class="main__column-content">Itanos</td>
+                  <td class="main__column-content">Chapinero</td>
+                  <td class="main__column-content">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td class="main__column-content">
+                    <a href="./restaurantes/itanos.html">Ver más</a>
+                  </td>
+                </tr>
+                <tr class="main__row">
+                  <td class="main__column-content main__column-content--active">3</td>
+                  <td class="main__column-content">La jugueteria</td>
+                  <td class="main__column-content">Kennedy</td>
+                  <td class="main__column-content">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td class="main__column-content">
+                    <a href="./restaurantes/jugueteria.html">Ver más</a>
+                  </td>
+                </tr>
+                <tr class="main__row">
+                  <td class="main__column-content main__column-content--active">4</td>
+                  <td class="main__column-content">Takuma Cocina Show</td>
+                  <td class="main__column-content">Chapinero</td>
+                  <td class="main__column-content">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td class="main__column-content">
+                    <a href="./restaurantes/takuma.html">Ver más</a>
+                  </td>
+                </tr>
+                <tr class="main__row">
+                  <td class="main__column-content main__column-content--active">5</td>
+                  <td class="main__column-content">M Cocina Árabe</td>
+                  <td class="main__column-content">Chapinero</td>
+                  <td class="main__column-content">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </td>
+                  <td class="main__column-content">
+                    <a href="./restaurantes/arabe/index.html">Ver más</a>
+                  </td>
+                </tr>
+                <tr class="main__row">
+                  <td class="main__column-content main__column-content--active">6</td>
+                  <td class="main__column-content">La castaña</td>
+                  <td class="main__column-content">Galerias</td>
+                  <td class="main__column-content">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </td>
+                  <td class="main__column-content">
+                    <a href="./restaurantes/castaña.html">Ver más</a>
+                  </td>
+                </tr>
+                <tr class="main__row">
+                  <td class="main__column-content main__column-content--active">7</td>
+                  <td class="main__column-content">Circo Stone Oven Pizza</td>
+                  <td class="main__column-content">Chapinero</td>
+                  <td class="main__column-content">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </td>
+                  <td class="main__column-content">
+                    <a href="./restaurantes/circo.html">Ver más</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
       </div>
     </div>
     <script src="./js/main.js"></script>

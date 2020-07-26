@@ -1,0 +1,46 @@
+html {
+  font-family: 'KoHo', sans-serif;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  background: linear-gradient(to right, #1565c0, #b92b27);
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #347b98;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.container .container__content {
+  background: whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 0 1.8rem 1.8rem;
+  width: 960px;
+}
+
+@media (max-width: 767px) {
+  .container .container__content {
+    padding: 0 1rem 0;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 767px) and (max-width: 1023px) {
+  .container .container__content {
+    padding: 0 1.8rem 0;
+  }
+}

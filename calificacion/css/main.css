@@ -1,237 +1,68 @@
-/* propiedad para cambiar tipo de letra*/
-html {
-  font-family: "KoHo", sans-serif;
+.main {
+  display: flex;
+  flex-direction: column;
 }
 
-/*quitar el interlineado del enlace con la propiedad none*/
-a {
-  text-decoration: none;
-  color: #347b98;
-}
-
-img {
-  max-width: 100%;
-}
-
-/*a:hover se le llama pseudo clase */
-a:hover {
-  opacity: 0.8;
-}
-
-/* transformar las letras como uno quiere, controla los efectos que uno quiere */
-.title {
+.main .main__title {
   text-transform: capitalize;
   text-align: center;
 }
 
-/* modificar el tamaño de la letra y la separacion de los parrafos
-color: ;*/
-.parrafo {
-  line-height: 1.8em;
-  font-weight: 400;
-}
-
-/*Clase para cambiar el fondo  degradado*/
-.container {
-  background: #b92b27; /* Respaldo*/
-  background: -webkit-linear-gradient(to right, #1565c0, #b92b27);
-  background: linear-gradient(to right, #1565c0, #b92b27);
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/*Clase para dibujar el fondo blanco*/
-.content {
-  max-width: 960px;
-  /*max-height: 500px;*/
-  width: 100%;
-  height: 80 vh;
-  background: whitesmoke;
-  /* box-shadow: difernecias de sombras  diferencia horizontal  diferencia vertical desenfoque amplitud color;*/
-  box-shadow: 0 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  border-radius: 4px;
-  /* position: relative; quiere decir que es un elemento posicionado y que no se mueva */
-  position: relative;
-  /*propiedad de como se comporta el contenido que sale de las dimensiones del elemento las dimensiones son max-width max-height */
-  overflow: hidden;
-  /* maximo de ancho*/
-  max-width: 1000px;
-  /*centrado del content ya se hizo anterior mente pero es opcional*/
-  margin: auto;
-
-  
-
-  /*flex*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex-grow: 2;
-  min-height: 350px;
-  
-}
-
-
-
-.content {
-  padding: 1em;
-}
-
-td {
-  display: block;
-  width: 100%;
-}
-td:nth-of-type(1) {
-  font-size: 1.5em;
-  font-weight: bold;
-  color: #1565c0;
-}
-th {
-  display: none;
-}
-
-/*boton cerrar*/
-.accion {
-  /* position: absolute; Las propiedades top, right, bottom, y  left especifican el desplazamiento desde los bordes del bloque contenedor del elemento.*/
-  position: absolute;
-  top: 1em;
-  right: 1em;
-}
-
-/*diseño del boton*/
-.cerrar {
-  height: 40px;
-  width: 40px;
-  color: white;
-  border-radius: 50%;
-  background-color: #1565c0;
-  display: inline-block;
-  box-shadow: 0 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  font-weight: 300;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/*Clase con la propiedad de poner el ancho total del div con un borde del td de 0*/
-.table {
-  width: 100%;
+.main .main__table {
   border-spacing: 0;
-}
-/*dar color alas estrellas*/
-.fa-star {
-  color: #ffc400;
+  width: 100%;
 }
 
-/*Esta es la forma donde dos clases se pueden agrupar para que se ejecute la propiedad*/
-.table td,
-.table th {
+.main .main__column-header {
   padding: 1em;
   text-align: left;
 }
-/*clase para seleccionar un numero o una formula a los hijos de un padre.
-coincide con uno o más elementos en función de su posición entre un grupo de hermanos.*/
-.table tr:nth-child(even) {
+
+.main .main__row:nth-child(even) {
   background-color: #bfc8eb;
 }
 
-/*Bordes de el titulo de la pagina mariajose  "esto se llama  propiedades shorthand "shorthand Properties" */
-.title-mariajose {
-  /*border-bottom-style: solid;
-  border-width: 2px;
-  border-color: #1565c0;
-  padding-bottom: 1em;
-  */
-  font-size: 2em;
-  border-bottom: #1565c0 solid 2px;
-  padding-bottom: 1em;
+.main .main__column-content {
+  padding: 1em;
 }
 
-.imagenhambur {
-  float: left;
-  margin-right: 1em;
-  height: 250px;
-  border-radius: 5px;
-}
-
-.imagenitanos {
-  float: right;
-  margin-right: 1em;
-  height: 250px;
-  border-radius: 5px;
-}
-.imagenjuguete {
-  float: right;
-  margin-right: 1em;
-  height: 200px;
-  border-radius: 5px;
-}
-
-.imagentakuma {
-  float: left;
-  margin-right: 1em;
-  height: 290px;
-  border-radius: 5px;
-}
-
-.imagenarabe {
-  float: right;
-  margin-right: 1em;
-  height: 290px;
-  border-radius: 5px;
-}
-
-.imagenpizza {
-  float: left;
-  margin-right: 1em;
-  height: 180px;
-  border-radius: 5px;
-}
-
-.imagencastaña {
-  float: left;
-  margin-right: 1em;
-  height: 250px;
-  border-radius: 5px;
-}
-/*tamaño de la bloque azul en el 1*/
-.direccion {
+.main .main__column-content--active {
+  font-size: 1rem;
   font-weight: bold;
-  color: #b92b27;
-  font-size: 1.2em;
-  margin-top: 2em;
-  display: inline-block;
+  color: #1565c0;
 }
 
-.position {
-  background-color: #1565c0;
-  color: #fff;
-  padding: 0.5em;
-  border-radius: 4px;
-  margin-right: 0.5em;
+.main .fa-star {
+  color: #ffc400;
 }
 
-/*media queries la funcion  es cuando queires modificar una pagina web o aplicacion en funcion del dispositivo
-o caracteristicas  como la resoluciond e pantalla o el ancho del vewport del navegador*/
+@media (max-width: 767px) {
+  .main {
+    height: 100vh;
+  }
 
-@media (min-width: 900px) {
-  th {
-    display: table-cell;
+  .main .main__table-container {
+    max-height: 600px;
+    overflow-y: auto;
   }
-  td {
-    width: auto;
-    display: table-cell;
+
+  .main .main__header {
+    display: none;
   }
-  td:nth-of-type(1) {
-    font-size: 1em;
-  }
-  .contend {
-    padding: 1.8em;
+
+  .main .main__row {
+    display: flex;
+    flex-direction: column;
   }
 }
-@media (min-height: 550px) {
-  .content {
-    height: 500px;
+
+@media (orientation: landscape) and (min-width: 767px) and (max-width: 1023px) {
+  .main {
+    height: 100vh;
+  }
+
+  .main .main__table-container {
+    max-height: 600px;
+    overflow-y: auto;
   }
 }

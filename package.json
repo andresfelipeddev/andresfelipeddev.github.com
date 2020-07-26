@@ -2,8 +2,7 @@
   "name": "andresfelipeddev.github.com",
   "version": "1.0.0",
   "scripts": {
-    "start:calificacion": "serve -l 4545 calificacion",
-    "start:cv": "serve -l 4546 cv"
+    "start": "serve -l 4545 ."
   },
   "repository": {
     "type": "git",

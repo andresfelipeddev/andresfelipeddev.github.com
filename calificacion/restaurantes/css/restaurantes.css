@@ -1,0 +1,96 @@
+.parrafo {
+  line-height: 1.8em;
+  font-weight: 400;
+}
+
+.accion {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+/*diseño del boton*/
+.cerrar {
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: #1565c0;
+  display: inline-block;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-weight: 300;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-mariajose {
+  font-size: 2em;
+  border-bottom: #1565c0 solid 2px;
+  padding-bottom: 1em;
+}
+
+.imagenhambur {
+  float: left;
+  margin-right: 1em;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.imagenitanos {
+  float: right;
+  margin-right: 1em;
+  height: 250px;
+  border-radius: 5px;
+}
+.imagenjuguete {
+  float: right;
+  margin-right: 1em;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.imagentakuma {
+  float: left;
+  margin-right: 1em;
+  height: 290px;
+  border-radius: 5px;
+}
+
+.imagenarabe {
+  float: right;
+  margin-right: 1em;
+  height: 290px;
+  border-radius: 5px;
+}
+
+.imagenpizza {
+  float: left;
+  margin-right: 1em;
+  height: 180px;
+  border-radius: 5px;
+}
+
+.imagencastaña {
+  float: left;
+  margin-right: 1em;
+  height: 250px;
+  border-radius: 5px;
+}
+
+.direccion {
+  font-weight: bold;
+  color: #b92b27;
+  font-size: 1.2em;
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.position {
+  background-color: #1565c0;
+  color: #fff;
+  padding: 0.5em;
+  border-radius: 4px;
+  margin-right: 0.5em;
+}

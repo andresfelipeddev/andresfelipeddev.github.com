@@ -25,11 +25,12 @@
   justify-content: center;
 }
 
-.title-mariajose {
+.title{
   font-size: 2em;
   border-bottom: #1565c0 solid 2px;
   padding-bottom: 1em;
-}
+  font-family: Lobster;
+ }
 
 .imagenhambur {
   float: left;

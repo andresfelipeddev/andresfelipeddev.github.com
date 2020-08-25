@@ -4,8 +4,9 @@
 }
 
 .main .main__title {
-  text-transform: capitalize;
+  font-family: Lobster;
   text-align: center;
+  
 }
 
 .main .main__table {

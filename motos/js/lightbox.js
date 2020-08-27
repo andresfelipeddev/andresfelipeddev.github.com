@@ -11,13 +11,12 @@ imagenes.forEach(imagen => {
     })
 })
 
-contenedorLight.addEventListener('click', (e) =>{
+contenedorLight.addEventListener('click', (e) => {
     if (e.target !== imagenesLight) {
         contenedorLight.classList.toggle('show')
         imagenesLight.classList.toggle('showImage')
         menu1.style.opacity = '1'
     }
-
 })
 
 const aparecerImagen = (imagen) => {
@@ -27,3 +26,10 @@ const aparecerImagen = (imagen) => {
     menu1.style.opacity = '0'
 
 }
+document.addEventListener('keydown', function (event) {
+    if (event.keyCode === 27) {
+        contenedorLight.classList.toggle('show')
+        imagenesLight.classList.toggle('showImage')
+
+    }
+});

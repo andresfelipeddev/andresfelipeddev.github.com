@@ -1,202 +1,310 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
-    <meta charset="utf-8" />
-    <title>Felipe Cortes - HV</title>
-    <meta
-      charset="description"
-      content="Andres es un desarrollador con 6 meses de experiencia trabajando con el frontend"
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoja de vida AndresFelipeDev</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
     />
   </head>
-  <body
-    style="
-      font-family: Arial, Helvetica, sans-serif;
-      margin: 0;
-      background-color: #f0f7d4;
-    "
-  >
-    <!-- font-family: funciona para las fuentes de la pagina siempre se colocan en el body 
-            margin: se utiliza para crear espacio en los elementos se pone 0 para que quede la pantalla completa
-        -->
-    <header
-      style="
-        background-color: #092834;
-        color: white;
-        text-align: center;
-        padding: 16px;
-      "
-    >
-      <!-- background-color: establece el color del fondo
-                color: color del texto 
-                text-align: funciona para aliniar el texto
-                padding: se utilizan para generar espacio alrededor del contenido de un elemento, dentro de cualquier borde definido. tambien se pude definir
-                conmo manejos de espacios en blanco 
-             -->
-
-      <h1 style="display: inline-block; width: 400px; font-weight: bold;">
-        Hv de Andres Felipe Diaz
-      </h1>
-      <p style="display: inline-block; width: 400px; font-weight: 200;">
-        Front end Web Developer
-      </p>
-    </header>
-    <div
-      style="
-        background-color: #66b032;
-        color: black;
-        text-align: center;
-        font-weight: bolder;
-        padding: 10px;
-      "
-    >
-      Tengo 6 meses de experiencia haciendo aplicaciones web, en el frontend.
-    </div>
-    <section>
-      <div
-        style="
-          width: 960px;
-          height: 200px;
-          margin-left: auto;
-          margin-right: auto;
-        "
-      >
-        <!--heigh establece la altura del elemento
-            margin-right: establece la margen derecha de un elemento
-            margin-left: establece la margen izquierda de un elemento-->
-        <div>
-          <div style="display: inline-block; width: 68%; vertical-align: top;">
-            <h3 style="font-size: 36px; font-weight: 700;">Sobre Mí</h3>
-
-            <div>
-              <p
-                style="
-                  font-size: 22px;
-                  text-transform: initial;
-                  margin-bottom: 12px;
-                  margin-top: 36px;
-                  font-size: 17px;
-                "
-              >
-                Felipe es un desarrollador de software con 6 meses de
-                experiencia en desarrollo web, utiliza las mejores técnicas
-                disponibles en la comunidad de código abierto para entregas de
-                producto de alta calidad. En cada momento está en constante
-                aprendizaje para dominar habilidades de HTML, CCS3, para
-                desarrollar productos óptimos y proyectos increíbles.
-                Actualmente estudia JavaScript para poder optimizar mejor sus
-                procesos. Puede crear plantillas para que los diseños de las
-                páginas sean más precisas y atractivas para hacer más deseable a
-                los clientes. Felipe ha trabajado en proyectos para incorporar
-                nuevas funciones a una página web, también ha trabajado en
-                proyectos de diseño para brindar una mejor experiencia al
-                usuario, maneja el control de versiones para cada tipo de
-                proyecto.
-              </p>
-            </div>
-
-            <h3 style="font-size: 36px; font-weight: 700;">Educación</h3>
-            <!--font-size:Permite alterar el tamaño de la fuente
-                        font-weight: permite cambiar el grosor de la fuente
-                    vertical-align:top : permite el alineado vertical de un elemento o una tabla -->
-            <div>
-              <dl>
-                <dt
-                  style="
-                    font-size: 22px;
-                    text-transform: uppercase;
-                    margin-bottom: 12px;
-                    margin-top: 36px;
-                    font-size: 20px;
-                  "
-                >
-                  Software Developer Enginer
-                </dt>
-                <dd>2014-2020. Universidad Ecci</dd>
-                <dt
-                  style="
-                    font-size: 22px;
-                    text-transform: uppercase;
-                    margin-bottom: 12px;
-                    margin-top: 36px;
-                    font-size: 20px;
-                  "
-                >
-                  Tecnologia de sistemas e infomatica empresarial
-                </dt>
-                <dd>2015-2020. Universidad del Magisterio CIDE</dd>
-              </dl>
-            </div>
+  <body>
+    <header class="hero">
+      <nav class="nav__hero">
+        <div class="container nav__container">
+          <div class="logo">
+            <h2 class="logo__name">FelipeDev<span class="point">.</span></h2>
           </div>
-          <div style="display: inline-block; width: 0.3%; margin-top: 30px; margin-left: 5em;">
-            <img src="yo.jpg" width="250" />
+          <div class="links">
+            <a href="#" class="link">Inicio</a>
+            <a href="#" class="link">Servicios</a>
+            <a href="#" class="link">Proyectos</a>
+            <a href="#" class="link">Clientes</a>
+            <a href="#" class="link link--active">Contacto</a>
           </div>
         </div>
-        <div style="margin-top: 30px;">
-          <h3 style="font-size: 36px; font-weight: 700;">
-            Experiencia laboral
-          </h3>
-          <div>
-            <dl>
-              <dt
-                style="
-                  font-size: 22px;
-                  text-transform: uppercase;
-                  margin-bottom: 12px;
-                  margin-top: 36px;
-                  font-size: 20px;
-                "
-              >
-                Banco BBVA
-              </dt>
-              <dd>
+      </nav>
+
+      <section class="container hero_main">
+        <div class="hero_textos">
+          <h1 class="title">
+            La mejor<span class="title--active"> Experiencia Digital.</span>
+          </h1>
+          <p class="copy">
+            Me encargo de llevar tu idea
+            <span class="copy_active">al siguiente nivel</span>
+          </p>
+          <a href="#" class="cta">Agenda una cita con migo</a>
+        </div>
+        <img src="img/compuoscuro.jpg" class="mockup" />
+      </section>
+    </header>
+    <main>
+      <section class="service">
+        <div class="container">
+          <h2 class="subtitle">
+            Proyectos Realizados<span class="point">.</span>
+          </h2>
+          <p class="copy_section">
+            Ofrezco la solucion perfecta para la revolucion digital
+          </p>
+
+          <article class="container-cards">
+            <div class="card">
+              <img src="img/restaurant.jpg" class="card_img" />
+              <div class="cards_text">
+                <p class="card_list">Los mejores restaurantes de Bogotá</p>
+                <h3 class="card_title">Web apps<span class="point">.</span></h3>
+                <p class="card_copy">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis maiores sed deleniti deserunt placeat eos totam
+                  hic sapiente provident mollitia animi quasi soluta, dolore
+                  sequi, dolorum architecto enim vitae doloribus.
+                </p>
+                <a
+                  href="https://andresfelipeddev.github.io/calificacion/"
+                  class="card_button"
+                  target="_blank"
+                  >Mira el proyecto</a
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/motorcycle.jpg" class="card_img" />
+              <div class="cards_text">
+                <p class="card_list">El mejor diseñlo para tu tienda</p>
+                <h3 class="card_title">
+                  Diseño Web<span class="point">.</span>
+                </h3>
+                <p class="card_copy">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis maiores sed deleniti deserunt placeat eos totam
+                  hic sapiente provident mollitia animi quasi soluta, dolore
+                  sequi, dolorum architecto enim vitae doloribus.
+                </p>
+                <a
+                  href="https://andresfelipeddev.github.io/motos/"
+                  class="card_button"
+                  target="_blank"
+                  >Mira el proyecto</a
+                >
+                >
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/process.jpg" class="card_img" />
+              <div class="cards_text">
+                <p class="card_list">La mejor Programación para tu pagina</p>
+                <h3 class="card_title">
+                  En progreso<span class="point">.</span>
+                </h3>
+                <p class="card_copy">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis maiores sed deleniti deserunt placeat eos totam
+                  hic sapiente provident mollitia animi quasi soluta, dolore
+                  sequi, dolorum architecto enim vitae doloribus.
+                </p>
+                <a href="#" class="card_button">Pronto aquí </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="projects container">
+        <h2 class="subtitle">
+          Proyectos recientes <span class="point">.</span>
+        </h2>
+        <p class="copy_section">
+          He colaborado con marcas de bancos en Colombia
+        </p>
+        <article class="container-bg">
+          <div class="card">
+            <div class="cards_text">
+              <h3 class="card_title">
+                Diseño Web <span class="point">.</span>
+              </h3>
+              <p class="card_date">2 de diciembre 2019 || 2 de junio 2020</p>
+              <p class="card_copy">
                 -Participación en BBVA NET LITE para la operación del entorno de
                 desarrollo a nivel local desde casa, sin tener que estar en una
-                red privada del banco.
-              </dd>
-              <dd>
+                red privada del banco.<br />
                 -Participación del proyecto Taggin para la página BBVA NET, con
                 el fin de incorporar nuevas funciones a la página web.
-              </dd>
-            </dl>
+              </p>
+              <a href="#" class="card_button">Contáctame!</a>
+            </div>
+          </div>
+          <div class="background">
+            <img src="img/background1.jpg" class="background_img" />
+            <div class="background_text">
+              <h3 class="background_title">La eduación en linea</h3>
+              <p class="background_copy">
+                La realidad aumentada transformara por completo la eduación
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="cards_text">
+              <h3 class="card_title">
+                Ingeniero de sistemas<span class="point">.</span>
+              </h3>
+              <p class="card_date">2 de Junio 2020</p>
+              <p class="card_copy">
+                Universidad Ecci | 2014 - 2020 <br />
+                Recién graduado, con ganas de experimentar en el mundo. Soy un
+                desarrollador de software con 6 meses de experiencia en
+                desarrollo web, utilizo las mejores técnicas disponibles en la
+                comunidad de código abierto para entregas de producto de alta
+                calidad. En cada momento estoy en constante aprendizaje para
+                dominar habilidades de HTML, CCS3, para desarrollar productos
+                óptimos y proyectos increíbles. Actualmente estudio JavaScript
+                para poder optimizar mejor mis procesos. Puedo crear plantillas
+                para que los diseños de las páginas sean más precisas y
+                atractivas, para hacer más adquisitivo a los clientes. Felipe ha
+                trabajado en proyectos para incorporar nuevas funciones a una
+                página web, también ha trabajado en proyectos de diseño para
+                brindar una mejor experiencia al usuario, maneja el control de
+                versiones para cada tipo de proyecto.
+              </p>
+              <a href="#" class="card_button">Contáctame</a>
+            </div>
+          </div>
+          <div class="background">
+            <img src="img/code.jpg" class="background_img" />
+            <div class="background_text">
+              <h3 class="background_title">La eduacion en linea</h3>
+              <p class="background_copy">
+                La realidad aumentada transformara por completo la eduación
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="testimony">
+        <div class="container">
+          <h2 class="subtitle">
+            Clientes satisfechos<span class="point">.</span>
+          </h2>
+          <p class="copy_section">Cientos de empresas confian en nosotros</p>
+
+          <div class="testimony-container">
+            <div class="testimony_card">
+              <img src="img/yo1.jpg" class="testimony_img" />
+              <div class="testimony_copy">
+                <i class="bx bxl-google testimony_logo"></i>
+                <div class="testimoney_info">
+                  <h3 class="testimony_name">Andres Cortes</h3>
+                  <p class="testimony_position">Director de Google Colombia</p>
+                </div>
+              </div>
+            </div>
+            <div class="testimony_card">
+              <img src="img/yo.jpg" class="testimony_img" />
+              <div class="testimony_copy">
+                <i class="bx bxl-apple testimony_logo"></i>
+                <div class="testimoney_info">
+                  <h3 class="testimony_name">Felipe diaz</h3>
+                  <p class="testimony_position">Director de Apple Colombia</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimony_card">
+              <div class="testimony_text">
+                <img src="img/google_logo.svg" class="google_logo" />
+                <p class="testimony_history">
+                  "Desde que empecé a trabajar con desarrollo web comencé a
+                  obtener resultados increibles. Ahora he llegado a un mayor
+                  números de conocimientos pero no quiero parar. Quiero seguir
+                  aprendiendo."
+                </p>
+                <div class="testimony_copy testimony_copy--modifier">
+                  <img src="img/yo.jpg" class="testimony_logo logo--picture" />
+                  <i class="bx bxl-apple testimony_logo"></i>
+                  <div class="testimoney_info">
+                    <h3 class="testimony_name">Andres Diaz</h3>
+                    <p class="testimony_position">Director de Apple Colombia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div style="margin-top: 70px;">
-          <h3 style="font-size: 36px; font-weight: 700;">
-            Habilidades Profesionales
-          </h3>
-          <ul style="margin-top: 12px; padding: 0px;">
-            <li style="margin-top: 16px;">Desarrollo de contenido web</li>
-            <li style="margin-top: 16px;">
-              Lenguaje de programación: Javascript for Web Development- Web
-              design
-            </li>
-            <li style="margin-top: 16px;">
-              Oracle 12c Seminario- SQL y PL / SQL - BIG DATA
-            </li>
-          </ul>
-        </div>
-        <div style="margin-top: 70px;">
-          <h3 style="font-size: 36px; font-weight: 700;">Proyecto realizado</h3>
-          <ul style="margin-top: 12px; padding: 0px;">
-            <li style="margin-top: 16px;">
-              <a href="https://andresfelipeddev.github.io/calificacion/" target="_blank">GitHub</a>
-            </li>
-          
-            </li>
-          </ul>
-        </div>
-        <div style="margin-top: 70px;">
-            <h3 style="font-size: 36px; font-weight: 700;">Redes Sociales </h3>
-            <ul style="margin-top: 12px; padding: 0px;">
-                <li style="margin-top: 16px;">
-                    <a href="https://about.gitlab.com/" target="_blank">GitLab</a>
-                </li>
-                <li style="margin-top: 16px;">
-                    <a href="https://www.instagram.com/?hl=es-la" target="_blank">Instagram</a>
+      </section>
 
-            </ul>
+      <section class="email container container--modifier">
+        <h2 class="subtitle subtitle--modifier">
+          Soy uno de los desarrolladores para adoptar la transformacion digital
+          <span class="point">.</span>
+        </h2>
+        <p class="copy_section copy_section--modifier">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero
+          ducimus nihil, consequuntur voluptate vitae! Corrupti similique
+          numquam itaque aliquam.
+        </p>
+        <div class="check">
+          <div class="chek_item">
+            <i class="bx bx-check"></i>
+            <div class="check_numbers">
+              <p class="check_number">+200</p>
+              <p class="check_copy">Proyectos Exitosos</p>
+            </div>
+          </div>
+
+          <div class="chek_item">
+            <i class="bx bx-check"></i>
+            <div class="check_numbers">
+              <p class="check_number">+200</p>
+              <p class="check_copy">Proyectos Exitosos</p>
+            </div>
+          </div>
+          <div class="chek_item">
+            <i class="bx bx-check"></i>
+            <div class="check_numbers">
+              <p class="check_number">+200</p>
+              <p class="check_copy">Proyectos Exitosos</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer_caption">
+        <section class="download">
+          <div class="footer_copy">
+            <p class="copyright">
+              FelipeDev &copy;2020 Todos los derechos reservados
+            </p>
+
+            <a
+              href="#"
+              class="politica_de_privasidad politica_de_privasidad--margin"
+            ></a>
+            <a href="#" class="Terminos y condiciones"></a>
+          </div>
+        </section>
+      </div>
+      <div class="contact">
+        <div class="item_contact">
+          <i class="bx bx-copyright contact_icon"></i>
+          <h3 class="contact_title">FelipeDev</h3>
+        </div>
+        <div class="item_contact">
+          <i class="bx bx-mail-send contact_icon"></i>
+          <h3 class="contact_title">andresdiaz3011@hotmail.com</h3>
+        </div>
+        <div class="item_contact">
+          <i class="bx bxs-edit-location contact_icon"></i>
+          <h3 class="contact_title">Bogota, Colombia.</h3>
+        </div>
+        <div class="item_contact item_contact--gold">
+          <i class="bx bxs-chat contact_icon contact_icon--modifier"></i>
+          <h3 class="contact_title">Contactame ahora</h3>
         </div>
       </div>
-    </section>
+    </footer>
   </body>
 </html>

@@ -30,6 +30,6 @@ document.addEventListener('keydown', function (event) {
     if (event.keyCode === 27) {
         contenedorLight.classList.toggle('show')
         imagenesLight.classList.toggle('showImage')
-
+        menu1.style.opacity = '0'
     }
 });

@@ -9,6 +9,12 @@
       href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script
+      type="text/javascript"
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+    ></script>
   </head>
   <body>
     <header class="hero">
@@ -18,17 +24,19 @@
             <h2 class="logo__name">FelipeDev<span class="point">.</span></h2>
           </div>
           <div class="links">
-            <a href="#" class="link">Inicio</a>
-            <a href="#" class="link">Servicios</a>
-            <a href="#" class="link">Proyectos</a>
-            <a href="#" class="link">Clientes</a>
-            <a href="#" class="link link--active">Contacto</a>
+            <a href="#inicio" class="link">Inicio .</a>
+            <a href="#experiencia" class="link">Experiencia .</a>
+            <a href="#proyecto" class="link">Proyectos .</a>
+            <a href="#conoceme" class="link">Conóceme .</a>
+
+            <a href="#contact" class="link link--active">Contacto</a>
           </div>
         </div>
       </nav>
 
       <section class="container hero_main">
         <div class="hero_textos">
+          <a id="inicio"></a>
           <h1 class="title">
             La mejor<span class="title--active"> Experiencia Digital.</span>
           </h1>
@@ -36,13 +44,19 @@
             Me encargo de llevar tu idea
             <span class="copy_active">al siguiente nivel</span>
           </p>
-          <a href="#" class="cta">Agenda una cita con migo</a>
+          <a
+            href="https://co.linkedin.com/in/andres-felipe-diaz-cortes-86ab96107?trk=profile-badge"
+            target="_blank"
+            class="link link--active cta"
+            >Agenda una cita conmigo</a
+          >
         </div>
-        <img src="img/compuoscuro.jpg" class="mockup" />
+        <img src="img/computer.png" class="mockup" />
       </section>
     </header>
     <main>
-      <section class="service">
+      <a id="proyecto"></a>
+      <section class="service testimony">
         <div class="container">
           <h2 class="subtitle">
             Proyectos Realizados<span class="point">.</span>
@@ -55,56 +69,54 @@
             <div class="card">
               <img src="img/restaurant.jpg" class="card_img" />
               <div class="cards_text">
-                <p class="card_list">Los mejores restaurantes de Bogotá</p>
-                <h3 class="card_title">Web apps<span class="point">.</span></h3>
+                <p class="card_list">La mejor calificación de restaurantes.</p>
+                <h3 class="card_title">
+                  Web animación<span class="point">.</span>
+                </h3>
                 <p class="card_copy">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis maiores sed deleniti deserunt placeat eos totam
-                  hic sapiente provident mollitia animi quasi soluta, dolore
-                  sequi, dolorum architecto enim vitae doloribus.
+                  Aquí encontraras las mejores calificaciones de restaurantes
+                  que ido personalmente, son muy recomendados la verdad.
+                  <br />¡Ve no te arrepentirás!
                 </p>
                 <a
                   href="https://andresfelipeddev.github.io/calificacion/"
                   class="card_button"
                   target="_blank"
-                  >Mira el proyecto</a
+                  >Mira mi proyecto</a
                 >
               </div>
             </div>
             <div class="card">
               <img src="img/motorcycle.jpg" class="card_img" />
               <div class="cards_text">
-                <p class="card_list">El mejor diseñlo para tu tienda</p>
+                <p class="card_list">El mejor diseño para venta de motos.</p>
                 <h3 class="card_title">
                   Diseño Web<span class="point">.</span>
                 </h3>
                 <p class="card_copy">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis maiores sed deleniti deserunt placeat eos totam
-                  hic sapiente provident mollitia animi quasi soluta, dolore
-                  sequi, dolorum architecto enim vitae doloribus.
+                  Aquí encontraras la mejor página web para la venta de motos,
+                  con un diseño amigable y atractivo para el cliente.<br />
+                  ¡Mira el diseño!<br />
                 </p>
                 <a
                   href="https://andresfelipeddev.github.io/motos/"
                   class="card_button"
                   target="_blank"
-                  >Mira el proyecto</a
-                >
+                  >Mira mi proyecto</a
                 >
               </div>
             </div>
             <div class="card">
               <img src="img/process.jpg" class="card_img" />
               <div class="cards_text">
-                <p class="card_list">La mejor Programación para tu pagina</p>
+                <p class="card_list">La mejor Programación para tu pagina.</p>
                 <h3 class="card_title">
                   En progreso<span class="point">.</span>
                 </h3>
                 <p class="card_copy">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Perferendis maiores sed deleniti deserunt placeat eos totam
-                  hic sapiente provident mollitia animi quasi soluta, dolore
-                  sequi, dolorum architecto enim vitae doloribus.
+                  Estoy estudiando JavaScript, pronto veras un proyecto
+                  relacionado con esta tecnología, que la verdad hasta el
+                  momento me ha encantado. ¡Pronto!
                 </p>
                 <a href="#" class="card_button">Pronto aquí </a>
               </div>
@@ -113,8 +125,9 @@
         </div>
       </section>
       <section class="projects container">
+        <a id="experiencia"></a>
         <h2 class="subtitle">
-          Proyectos recientes <span class="point">.</span>
+          Donde he trabajado <span class="point">.</span>
         </h2>
         <p class="copy_section">
           He colaborado con marcas de bancos en Colombia
@@ -123,7 +136,7 @@
           <div class="card">
             <div class="cards_text">
               <h3 class="card_title">
-                Diseño Web <span class="point">.</span>
+                Banco BBVA <span class="point">.</span>
               </h3>
               <p class="card_date">2 de diciembre 2019 || 2 de junio 2020</p>
               <p class="card_copy">
@@ -133,15 +146,22 @@
                 -Participación del proyecto Taggin para la página BBVA NET, con
                 el fin de incorporar nuevas funciones a la página web.
               </p>
-              <a href="#" class="card_button">Contáctame!</a>
+              <a
+                href="https://co.linkedin.com/in/andres-felipe-diaz-cortes-86ab96107?trk=profile-badge"
+                target="_blank"
+                class="card_button"
+                >Contáctame!</a
+              >
             </div>
           </div>
           <div class="background">
             <img src="img/background1.jpg" class="background_img" />
             <div class="background_text">
-              <h3 class="background_title">La eduación en linea</h3>
+              <h3 class="background_title">Aquí aprendí que:</h3>
               <p class="background_copy">
-                La realidad aumentada transformara por completo la eduación
+                Mi empatía y constante aprendizaje, me han ayudado a crear
+                buenas relaciones laborales permitiendo desarrollarme como
+                personal y profesionalmente.
               </p>
             </div>
           </div>
@@ -168,15 +188,20 @@
                 brindar una mejor experiencia al usuario, maneja el control de
                 versiones para cada tipo de proyecto.
               </p>
-              <a href="#" class="card_button">Contáctame</a>
+              <a
+                href="https://co.linkedin.com/in/andres-felipe-diaz-cortes-86ab96107?trk=profile-badge"
+                target="_blank"
+                class="card_button"
+                >Contáctame</a
+              >
             </div>
           </div>
           <div class="background">
             <img src="img/code.jpg" class="background_img" />
             <div class="background_text">
-              <h3 class="background_title">La eduacion en linea</h3>
+              <h3 class="background_title">Ingeniero de sistemas.</h3>
               <p class="background_copy">
-                La realidad aumentada transformara por completo la eduación
+                Soy recién graduado con mucha actitud para aprender.
               </p>
             </div>
           </div>
@@ -184,37 +209,36 @@
       </section>
       <section class="testimony">
         <div class="container">
-          <h2 class="subtitle">
-            Clientes satisfechos<span class="point">.</span>
-          </h2>
-          <p class="copy_section">Cientos de empresas confian en nosotros</p>
-
+          <a id="conoceme"></a>
+          <h2 class="subtitle">Conóceme <span class="point">.</span></h2>
+          <p class="copy_section">Puedo diseñar lo que necesites</p>
           <div class="testimony-container">
             <div class="testimony_card">
               <img src="img/yo1.jpg" class="testimony_img" />
               <div class="testimony_copy">
-                <i class="bx bxl-google testimony_logo"></i>
+                <i class="bx bx-paper-plane testimony_logo"></i>
                 <div class="testimoney_info">
-                  <h3 class="testimony_name">Andres Cortes</h3>
-                  <p class="testimony_position">Director de Google Colombia</p>
+                  <h3 class="testimony_name">Andres Felipe Diaz</h3>
+                  <p class="testimony_position">Desarrollador Web</p>
                 </div>
               </div>
             </div>
             <div class="testimony_card">
-              <img src="img/yo.jpg" class="testimony_img" />
+              <img src="img/gata.jpeg" class="testimony_img" />
               <div class="testimony_copy">
-                <i class="bx bxl-apple testimony_logo"></i>
+                <i class="bx bxl-baidu testimony_logo"></i>
                 <div class="testimoney_info">
-                  <h3 class="testimony_name">Felipe diaz</h3>
-                  <p class="testimony_position">Director de Apple Colombia</p>
+                  <h3 class="testimony_name">Salome</h3>
+                  <p class="testimony_position">Quien me acompaña</p>
                 </div>
               </div>
             </div>
 
             <div class="testimony_card">
               <div class="testimony_text">
-                <img src="img/google_logo.svg" class="google_logo" />
+                <i class="bx bx-rocket testimony_logo"></i>
                 <p class="testimony_history">
+                  <br />
                   "Desde que empecé a trabajar con desarrollo web comencé a
                   obtener resultados increibles. Ahora he llegado a un mayor
                   números de conocimientos pero no quiero parar. Quiero seguir
@@ -222,10 +246,12 @@
                 </p>
                 <div class="testimony_copy testimony_copy--modifier">
                   <img src="img/yo.jpg" class="testimony_logo logo--picture" />
-                  <i class="bx bxl-apple testimony_logo"></i>
+                  <i class="bx bxl-linkedin testimony_logo"></i>
                   <div class="testimoney_info">
-                    <h3 class="testimony_name">Andres Diaz</h3>
-                    <p class="testimony_position">Director de Apple Colombia</p>
+                    <h3 class="testimony_name">Andres Felipe Diaz Cortes</h3>
+                    <p class="testimony_position">
+                      Desarrollador Web Front-End | Ingeniero de Sistemas
+                    </p>
                   </div>
                 </div>
               </div>
@@ -240,9 +266,8 @@
           <span class="point">.</span>
         </h2>
         <p class="copy_section copy_section--modifier">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur vero
-          ducimus nihil, consequuntur voluptate vitae! Corrupti similique
-          numquam itaque aliquam.
+          Espero que mi perfil pueda ser útil para poder desempeñar el cargo
+          propuesto ¡gracias!.
         </p>
         <div class="check">
           <div class="chek_item">
@@ -287,7 +312,9 @@
           </div>
         </section>
       </div>
+      <a id="contacto"></a>
       <div class="contact">
+        <a name="contact"></a>
         <div class="item_contact">
           <i class="bx bx-copyright contact_icon"></i>
           <h3 class="contact_title">FelipeDev</h3>

@@ -726,4 +726,9 @@ body {
   .download_logo {
     font-size: 30px;
   }
+
+  .links {
+    padding-bottom: 10px;
+    text-align: right;
+  }
 }

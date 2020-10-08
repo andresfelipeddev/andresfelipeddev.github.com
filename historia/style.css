@@ -1,0 +1,97 @@
+html {
+  font-size: 30px;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  line-height: 2;
+  border-radius: 5px;
+  background: #eeeeee;
+  color: #333;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  display: block;
+}
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+}
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+#line {
+  margin: 50px 0;
+}
+
+h3 {
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+strong {
+  font-weight: bold;
+}
+li {
+  text-align: center;
+  display: list-item;
+}
+
+ul {
+  max-width: 900px;
+  margin: 0 auto 90px auto;
+  list-style-type: disc;
+  text-align: left;
+  line-height: 2em;
+  font-size: 1.2em;
+}
+#revew {
+  font-style: italic;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+}
+#line {
+  margin: 50px 0;
+  text-align: center;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+}
+#revew {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
